@@ -1,0 +1,87 @@
+.style-17 .alphabet {
+  margin: 0;
+  padding: 0; }
+  .style-17 .alphabet li {
+    display: block;
+    float: left;
+    margin: 0 10px 10px 0; }
+    .style-17 .alphabet li a {
+      display: block;
+      background-color: #e5e5e5;
+      width: 36px;
+      height: 36px;
+      line-height: 36px;
+      text-align: center;
+      color: #000;
+      text-decoration: none; }
+  .style-17 .alphabet .disable {
+    cursor: not-allowed; }
+    .style-17 .alphabet .disable a {
+      background-color: #f9f9f9;
+      pointer-events: none; }
+.style-17 .clr {
+  clear: both; }
+.style-17 .letters {
+  margin: 60px 0 0 0;
+  padding: 0;
+  list-style: none; }
+  .style-17 .letters .li-letters {
+    position: relative; }
+    .style-17 .letters .li-letters .item-let {
+      margin: 30px 0;
+      padding: 7px 15px;
+      background-color: #f0f0f0;
+      border-radius: 3px;
+      border-left: solid 2px #a83332; }
+      .style-17 .letters .li-letters .item-let h4 {
+        font-size: 1.209rem;
+        margin-bottom: 0.2rem;
+        float: left; }
+      .style-17 .letters .li-letters .item-let .to-top {
+        font-size: 0.85rem;
+        color: #242424;
+        float: right;
+        line-height: 26px;
+        text-decoration: none; }
+    .style-17 .letters .li-letters::before {
+      content: "●";
+      position: absolute;
+      left: -20px;
+      top: -10px;
+      color: #636363; }
+    .style-17 .letters .li-letters ul {
+      margin: 0;
+      padding: 0; }
+      .style-17 .letters .li-letters ul li {
+        padding: 10px 0; }
+        .style-17 .letters .li-letters ul li a {
+          text-decoration: none;
+          color: #636363;
+          transition: all 0.5s; }
+          .style-17 .letters .li-letters ul li a::after {
+            content: "»";
+            margin-left: 5px; }
+        .style-17 .letters .li-letters ul li:hover a {
+          color: #a83332; }
+.style-17 .pagination {
+  text-align: center;
+  background-color: #f7f7f7;
+  padding: 0.4rem 1rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.18);
+  margin-top: 1.3rem;
+  border-radius: 0.15rem; }
+  .style-17 .pagination .pull-left, .style-17 .pagination .pull-right {
+    line-height: 34px; }
+    .style-17 .pagination .pull-left a, .style-17 .pagination .pull-right a {
+      cursor: pointer;
+      display: inline-block;
+      color: #a83332;
+      text-decoration: none;
+      font-size: 0.83rem;
+      line-height: 1.65rem;
+      white-space: nowrap; }
+  .style-17 .pagination .pull-left {
+    float: left;
+    display: none; }
+  .style-17 .pagination .pull-right {
+    float: right; }

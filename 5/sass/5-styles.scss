@@ -1,0 +1,152 @@
+.style-5{
+    $color-1: #a83332;
+    $color-2: #fff;
+    $color-3: #636363;
+
+    .inner{
+        background-image: url('../images/bg.jpg');
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        -webkit-background-size: cover;
+        background-size: cover;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        .column-inner{
+            color: $color-2;
+            h3{
+                margin: 0 0 23px 0;
+                font-size: 1.522rem;
+                font-weight: 600;
+            }
+            .text-inner{
+                margin:0 0 30px 0;
+            }
+        }
+    }
+    .btn-readmore{
+        color: $color-2;
+        background-color: #a83332;
+        border-color: #772423;
+        border-radius: .15rem;
+        padding: .5rem 1.8rem;
+        font-weight: 600;
+        font-size: 1rem;
+        line-height: 1.65rem;
+        white-space: nowrap;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        &:focus{
+            outline: none;
+            box-shadow: none;
+        }
+        &:hover{ 
+            background-color: #812726;
+            color: $color-2;
+        }
+    }
+    .prow-herder{
+        position: relative;
+        background-color: rgb(168, 51, 50);
+        position: relative;
+        padding: 30px 0;
+        text-align: center;
+        h3{
+            color: $color-2;
+            font-size: 1.522rem;
+            font-weight: 600;
+        }
+        .arrow{
+            content: "";
+            position: absolute;
+            left: 50%;
+            margin-left: -27px;
+            bottom: -54px;
+            border: solid 27px transparent;
+            border-top-color: rgb(168, 51, 50);
+        }
+    }
+    .thumb-5{
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-color: rgb(229, 229, 229);
+        .item-event{
+            padding-left: 2px;
+            padding-right: 2px;
+            margin-bottom: 4px;
+            .thumbs-p{
+                position: relative;
+                .picture{
+                    overflow: hidden;
+                    img{
+                        width: 100%;
+                        min-width: 12px;
+                        height: auto;
+                        transition: all .5s ease-in-out;
+                    }
+                }
+                &:hover{
+                    .picture{
+                        img{
+                            transform: scale(1.2);
+                        }
+                    }
+                }
+                .content-thumb{
+                    background-color: rgba(168,51,50,.7);
+                    color: $color-2;
+                    padding: 15px;
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    width: 100%;
+                    text-align: center;
+                    .content-title{
+                        font-size: 1.209rem;
+                        font-weight: 600;
+                    }
+                    .content-detail{
+                        font-size: .85rem;
+                    }
+                }
+                .color-content-1{
+                    background-color: #6a4d4ae0;
+                }
+                .color-content-2{
+                    background-color: #67824Ae0;
+                }
+                .color-content-3{
+                    background-color: #7165B1e0;
+                }
+                .color-content-4{
+                    background-color: #018083e0;
+                }
+                .color-content-5{
+                    background-color: #324FD6e0;
+                }
+                .color-content-6{
+                    background-color: #BC6634e0;
+                }
+                .color-content-7{
+                    background-color: #BAA22De0;
+                }
+                .color-content-8{
+                    background-color: #B0584Be0;
+                }
+            }
+            
+            &:nth-last-of-type(2n+1){
+                .thumbs-p{
+                    .content-thumb{
+                        bottom: unset;
+                        top: 0;
+                    }
+                }
+            }
+        }
+            
+    }
+}
+@font-face {
+    font-family: "font-5";
+    src: url('./font/RobotoSlab-Light.ttf')format('truetype');
+}

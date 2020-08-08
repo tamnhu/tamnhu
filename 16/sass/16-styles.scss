@@ -1,0 +1,114 @@
+.style-16{
+    $color-1: #a83332;
+    $color-2: #fff;
+    $color-3: #636363;
+
+    .close{
+        display: none !important;
+    }
+    .category{
+        .showCate{
+            margin-bottom: 1.35rem;
+            text-align: right;
+            a{
+                padding-left: 20px;
+                color: $color-1;
+                text-decoration: none;
+                i{
+                    color: $color-3;
+                }
+                &:hover{
+                    color: #242424;
+                }
+            }
+        }
+        .subCategory{
+            .card-cate{
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                min-width: 0;
+                word-wrap: break-word;
+                background-color: #fff;
+                background-clip: border-box;
+                .card-header{
+                    border-bottom: unset;
+                    padding: 0;
+                    margin-top: .5rem;
+                    .btn-link{
+                        text-decoration: none;
+                        background-color: #a83332;
+                        border-radius: 0;
+                        height: 44px;
+                        width: 44px;
+                        &:focus{
+                            outline: none;
+                            box-shadow: none;
+                        }
+                        &::before{
+                            content: "-";
+                            color: $color-2;
+                            font-size: 18px;
+                        }
+                    }
+                    .collapsed::before{
+                        content: "+" !important;
+                    }
+                    .cate-name{
+                        margin-left: 15px;
+                        color: #242424;
+                        text-decoration: none;
+                        font-size: 18px;
+                    }
+                }
+                .card-body{
+                    padding: 0;
+                    ul{
+                        margin-bottom: 0;
+                        list-style: none;
+                        padding: 0;
+                        li{
+                            position: relative;
+                            padding: .7rem 2.8rem;
+                            margin: .5rem 0 0 1rem;
+                            background-color: rgba(0,0,0,.03);
+                            a{
+                                background-repeat: no-repeat;
+                                background-position: left .2rem;
+                                padding-left: 21px;
+                                font-size: 1rem;
+                                text-decoration: none;
+                                color: #242424;
+                            }
+                            span{
+                                background-color: rgba(0,0,0,.08);
+                                margin-left: .5rem;
+                                color: rgba(0,0,0,.35);
+                                padding: 3px 5px;
+                                line-height: 16px;
+                                border-radius: .2rem;
+                            }
+                            &::before{
+                                content: "";
+                                position: absolute;
+                                width: 2px;
+                                height: 100%;
+                                background-color: #a83332;
+                                left: 0;
+                                top: 0;
+                            }
+                            &:nth-of-type(2n)::before{
+                                background-color: #d5a737;
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@font-face {
+    font-family: "font-16";
+    src: url('./font/RobotoSlab-Regular.ttf')format('truetype');
+}

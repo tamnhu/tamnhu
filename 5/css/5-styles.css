@@ -1,0 +1,108 @@
+.style-5 .inner {
+  background-image: url('../images/bg.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  padding-top: 40px;
+  padding-bottom: 40px; }
+  .style-5 .inner .column-inner {
+    color: #fff; }
+    .style-5 .inner .column-inner h3 {
+      margin: 0 0 23px 0;
+      font-size: 1.522rem;
+      font-weight: 600; }
+    .style-5 .inner .column-inner .text-inner {
+      margin: 0 0 30px 0; }
+.style-5 .btn-readmore {
+  color: #fff;
+  background-color: #a83332;
+  border-color: #772423;
+  border-radius: 0.15rem;
+  padding: 0.5rem 1.8rem;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.65rem;
+  white-space: nowrap;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+  .style-5 .btn-readmore:focus {
+    outline: none;
+    box-shadow: none; }
+  .style-5 .btn-readmore:hover {
+    background-color: #812726;
+    color: #fff; }
+.style-5 .prow-herder {
+  position: relative;
+  background-color: #a83332;
+  position: relative;
+  padding: 30px 0;
+  text-align: center; }
+  .style-5 .prow-herder h3 {
+    color: #fff;
+    font-size: 1.522rem;
+    font-weight: 600; }
+  .style-5 .prow-herder .arrow {
+    content: "";
+    position: absolute;
+    left: 50%;
+    margin-left: -27px;
+    bottom: -54px;
+    border: solid 27px transparent;
+    border-top-color: #a83332; }
+.style-5 .thumb-5 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #e5e5e5; }
+  .style-5 .thumb-5 .item-event {
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-bottom: 4px; }
+    .style-5 .thumb-5 .item-event .thumbs-p {
+      position: relative; }
+      .style-5 .thumb-5 .item-event .thumbs-p .picture {
+        overflow: hidden; }
+        .style-5 .thumb-5 .item-event .thumbs-p .picture img {
+          width: 100%;
+          min-width: 12px;
+          height: auto;
+          transition: all 0.5s ease-in-out; }
+      .style-5 .thumb-5 .item-event .thumbs-p:hover .picture img {
+        transform: scale(1.2); }
+      .style-5 .thumb-5 .item-event .thumbs-p .content-thumb {
+        background-color: rgba(168, 51, 50, 0.7);
+        color: #fff;
+        padding: 15px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        text-align: center; }
+        .style-5 .thumb-5 .item-event .thumbs-p .content-thumb .content-title {
+          font-size: 1.209rem;
+          font-weight: 600; }
+        .style-5 .thumb-5 .item-event .thumbs-p .content-thumb .content-detail {
+          font-size: 0.85rem; }
+      .style-5 .thumb-5 .item-event .thumbs-p .color-content-1 {
+        background-color: #6a4d4ae0; }
+      .style-5 .thumb-5 .item-event .thumbs-p .color-content-2 {
+        background-color: #67824Ae0; }
+      .style-5 .thumb-5 .item-event .thumbs-p .color-content-3 {
+        background-color: #7165B1e0; }
+      .style-5 .thumb-5 .item-event .thumbs-p .color-content-4 {
+        background-color: #018083e0; }
+      .style-5 .thumb-5 .item-event .thumbs-p .color-content-5 {
+        background-color: #324FD6e0; }
+      .style-5 .thumb-5 .item-event .thumbs-p .color-content-6 {
+        background-color: #BC6634e0; }
+      .style-5 .thumb-5 .item-event .thumbs-p .color-content-7 {
+        background-color: #BAA22De0; }
+      .style-5 .thumb-5 .item-event .thumbs-p .color-content-8 {
+        background-color: #B0584Be0; }
+    .style-5 .thumb-5 .item-event:nth-last-of-type(2n+1) .thumbs-p .content-thumb {
+      bottom: unset;
+      top: 0; }
+
+@font-face {
+  font-family: "font-5";
+  src: url('./font/RobotoSlab-Light.ttf') format('truetype'); }

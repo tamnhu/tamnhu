@@ -1,0 +1,84 @@
+.style-16 .close {
+  display: none !important; }
+  .style-16 .category .showCate {
+    margin-bottom: 1.35rem;
+    text-align: right; }
+    .style-16 .category .showCate a {
+      padding-left: 20px;
+      color: #a83332;
+      text-decoration: none; }
+      .style-16 .category .showCate a i {
+        color: #636363; }
+      .style-16 .category .showCate a:hover {
+        color: #242424; }
+  .style-16 .category .subCategory .card-cate {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box; }
+    .style-16 .category .subCategory .card-cate .card-header {
+      border-bottom: unset;
+      padding: 0;
+      margin-top: 0.5rem; }
+      .style-16 .category .subCategory .card-cate .card-header .btn-link {
+        text-decoration: none;
+        background-color: #a83332;
+        border-radius: 0;
+        height: 44px;
+        width: 44px; }
+        .style-16 .category .subCategory .card-cate .card-header .btn-link:focus {
+          outline: none;
+          box-shadow: none; }
+        .style-16 .category .subCategory .card-cate .card-header .btn-link::before {
+          content: "-";
+          color: #fff;
+          font-size: 18px; }
+      .style-16 .category .subCategory .card-cate .card-header .collapsed::before {
+        content: "+" !important; }
+      .style-16 .category .subCategory .card-cate .card-header .cate-name {
+        margin-left: 15px;
+        color: #242424;
+        text-decoration: none;
+        font-size: 18px; }
+    .style-16 .category .subCategory .card-cate .card-body {
+      padding: 0; }
+      .style-16 .category .subCategory .card-cate .card-body ul {
+        margin-bottom: 0;
+        list-style: none;
+        padding: 0; }
+        .style-16 .category .subCategory .card-cate .card-body ul li {
+          position: relative;
+          padding: 0.7rem 2.8rem;
+          margin: 0.5rem 0 0 1rem;
+          background-color: rgba(0, 0, 0, 0.03); }
+          .style-16 .category .subCategory .card-cate .card-body ul li a {
+            background-repeat: no-repeat;
+            background-position: left 0.2rem;
+            padding-left: 21px;
+            font-size: 1rem;
+            text-decoration: none;
+            color: #242424; }
+          .style-16 .category .subCategory .card-cate .card-body ul li span {
+            background-color: rgba(0, 0, 0, 0.08);
+            margin-left: 0.5rem;
+            color: rgba(0, 0, 0, 0.35);
+            padding: 3px 5px;
+            line-height: 16px;
+            border-radius: 0.2rem; }
+          .style-16 .category .subCategory .card-cate .card-body ul li::before {
+            content: "";
+            position: absolute;
+            width: 2px;
+            height: 100%;
+            background-color: #a83332;
+            left: 0;
+            top: 0; }
+          .style-16 .category .subCategory .card-cate .card-body ul li:nth-of-type(2n)::before {
+            background-color: #d5a737; }
+
+@font-face {
+  font-family: "font-16";
+  src: url('./font/RobotoSlab-Regular.ttf') format('truetype'); }

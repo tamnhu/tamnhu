@@ -1,0 +1,82 @@
+.style-20 .top-banner .banner-bg {
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  padding: 2.4rem 0; }
+.style-20 .top-banner .banner-title {
+  background-color: #333e45;
+  padding: 0.44rem 0; }
+  .style-20 .top-banner .banner-title h1 {
+    font-size: 1.109rem;
+    margin-bottom: 0; }
+    .style-20 .top-banner .banner-title h1 a {
+      color: #fff;
+      font-weight: 600;
+      text-decoration: none; }
+.style-20 .link-herder {
+  background-color: #f4f4f4; }
+  .style-20 .link-herder .inner {
+    padding: 4px 0; }
+    .style-20 .link-herder .inner .breadcrumb {
+      padding: 0;
+      margin: 0;
+      background-color: none;
+      border-radius: 0; }
+      .style-20 .link-herder .inner .breadcrumb .breadcrumb-item a {
+        color: #636363;
+        text-decoration: none; }
+        .style-20 .link-herder .inner .breadcrumb .breadcrumb-item a:hover {
+          color: #a83332; }
+      .style-20 .link-herder .inner .breadcrumb .breadcrumb-item:nth-of-type(n+2)::before {
+        content: "➣";
+        color: #bcbcbc;
+        font-family: FontAwesome; }
+.style-20 .title h2 {
+  font-size: 1.912rem;
+  font-weight: 600; }
+.style-20 .content-20 .content-top {
+  color: #636363;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.65rem; }
+.style-20 .content-20 .items {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-bottom: 30px; }
+  .style-20 .content-20 .items .item-notify {
+    position: relative;
+    min-height: 46px;
+    background-color: #f0f0f0;
+    margin-bottom: 30px; }
+    .style-20 .content-20 .items .item-notify .box-icon {
+      background-color: rgba(28, 119, 195, 0.8);
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      display: block;
+      line-height: 46px;
+      width: 46px;
+      text-align: center;
+      font-size: 17px;
+      color: #fff;
+      transition: all 0.25s ease-in-out; }
+      .style-20 .content-20 .items .item-notify:hover .box-icon {
+        background-color: #1c77c3; }
+        .style-20 .content-20 .items .item-notify:hover .box-content a {
+          color: #000; }
+    .style-20 .content-20 .items .item-notify .box-content {
+      padding: 10px 10px 10px 62px;
+      min-height: 46px;
+      color: #636363; }
+      .style-20 .content-20 .items .item-notify .box-content a {
+        text-decoration: none;
+        color: #a83332; }
+  .style-20 .content-20 .items .item-notify2 .box-icon {
+    background-color: rgba(168, 51, 50, 0.8); }
+    .style-20 .content-20 .items .item-notify2:hover .box-icon {
+      background-color: #a83332; }
+      .style-20 .content-20 .items .item-notify2:hover .box-content a {
+        color: #000; }
